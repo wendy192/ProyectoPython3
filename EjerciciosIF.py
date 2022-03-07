@@ -95,7 +95,7 @@ else:
 #Si el usuario ingresa una opción que no corresponde a ninguno de 
 # los candidatos disponibles, indicar “Opción errónea”.
 
-
+"""
 
 print("Elegir candidatos")
 print("Elige por letra, uno de los siguientes candidatos")
@@ -114,6 +114,5 @@ elif(x=="b"):
 elif(x=="c"):
     print("Has elegido al candidato del partido Azul")
 else: ("Opcion erronea")
-
-
+"""
 
