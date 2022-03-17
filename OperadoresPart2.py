@@ -123,13 +123,63 @@ print("El valor de y es ", str(y))
 """
 #Encuentre la longitud de 'python' y 'dragon' y 
 # haga una declaración de comparación falsa.
-
+"""
 p=len("PYTHON")
 d=len("dragon")
 comp=p<d
 print(comp)
 print(len("python")<len("dragon"))
+
 #Use un operador para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
 py="python"
 drag="dragon"
-print(drag.find("on"))
+print("La cadena 'on' se encuentra en la palabra python?")
+print("on" in py)
+print("La cadena 'on' se encuentra en la palabra dragon?")
+print("on" in drag)
+
+#Espero que este curso no esté lleno de jerga . 
+# Use el operador in para verificar si hay jerga en la oración.
+
+str="Espero qu este curso no este lleno de jerga"
+print("La frase contiene la palabra 'jerga'?")
+print("jerga" in str)
+
+
+#No hay 'on' tanto en dragon como en python
+py="python"
+drag="dragon"
+
+p="on" in py
+d="on" in drag
+print(p!=d)
+
+#Encuentre la longitud del texto python y 
+# convierta el valor en flotante 
+lenPy=len(py)
+
+print("Convierte el valor en un flotante >>", float(lenPy))
+
+#Los números pares son divisibles por 2 y el resto es cero. 
+# ¿Cómo verifica si un número es par o no usando python?
+n=input("Ingresa el numero>> ")
+print("el numero es par?")
+print((int(n)%2)==0)
+
+#Escriba un script que solicite al usuario que ingrese las horas y 
+# la tarifa por hora. ¿Calcular el salario de la persona?
+print("Calcular el salario por hora")
+tarifa=input("ingrese la tarifa>> ")
+horas= input("Ingrese las horas trabajadas>>")
+salario= float(tarifa)*float(horas)
+print("El salario es de  ",float(salario))
+"""
+#Escriba un script que solicite al usuario que ingrese el número de años. 
+# Calcular el número de segundos que puede vivir una persona.
+
+print("Calculando los segundos vividos")
+edad=input("Ingrese su edad en años>> ")
+segAnio= int(edad)*31536000
+print("Los segundos que has vivido son: ", int(segAnio))
+
+
