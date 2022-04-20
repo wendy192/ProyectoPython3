@@ -114,5 +114,25 @@ elif(x=="b"):
 elif(x=="c"):
     print("Has elegido al candidato del partido Azul")
 else: ("Opcion erronea")
+
+from tkinter import Y
+
+
+numeros=(0,1,2,3,4,5)
+for numeber in numeros:
+    print(numeber)
+it_co={'facebook','microsoft','google'}
+for compania in it_co:
+    print(compania)
+
+count=0
+while count <5:
+    print('*')
+    count=count+1
+lst=list(range(2,11))
+print(lst)
 """
+
+
+
 
