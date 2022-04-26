@@ -8,7 +8,7 @@ from pickle import FALSE
 
 """
 nombre="Wendy"
-apellido="Organista"
+apellido="Fulano"
 nombre_completo="Maria Mercedes"
 pais= "Mexico"
 ciudad="CDMX"
@@ -44,7 +44,7 @@ print("potencia1= ", potencia1)
 print("potencia2 =", potencia2)
 
 """
-######Si el radio de un circulo es de 30 m. 
+##Si el radio de un circulo es de 30 m. 
 # Calcule el area de un circulo y asigne el valor a un nombre
 #de variable areaCirculo
 #
