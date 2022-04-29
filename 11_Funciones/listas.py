@@ -1,10 +1,10 @@
 
-def listas (frutas):
-    frutas=['melon','fresa','limon','uvas','sandia']
-    for n in range(len(frutas)):
-        una=(frutas[n])
+def listas (lista):
+   # lista=['melon','fresa','limon','uvas','sandia']
+    for n in range(len(lista)):
+        una=lista[n]
         print('fruta', una)
-        #return una 
+    return 
 
 
 def sumarizar(lista):
@@ -16,4 +16,4 @@ def sumarizar(lista):
 frutas=['melon','fresa','limon','uvas','sandia']
 print(listas(frutas))
 lista=[1,2,3,4]
-print(sumarizar(lista))
+print(sumarizar(lista))  
